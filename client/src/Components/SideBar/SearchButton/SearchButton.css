@@ -1,0 +1,40 @@
+.search-button {
+  background-color: #ff9f0d1a;
+  height: 46px;
+  position: relative;
+  width: 248px;
+  display : flex ;
+  margin-top: 1.5rem;
+  /* margin-left: 1.875rem; */
+  }
+
+.search-button .overlap-group {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/4da335c00f8083bac484459054cd6b00/img/rectangle-7850-1.svg);
+  background-size: 100% 100%;
+  height: 46px;
+  left: 202px;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.search-button .magnifying-glass {
+  height: 20px !important;
+  left: 13px !important;
+  position: absolute !important;
+  top: 13px !important;
+  width: 20px !important;
+}
+
+.search-button .search-product {
+  color: #828282;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}

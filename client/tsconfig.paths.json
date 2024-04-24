@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@root": ["."],
+      "@asset/*": ["./services/*"]
+    }
+  }
+}

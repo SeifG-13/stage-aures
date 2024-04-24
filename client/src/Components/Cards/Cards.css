@@ -1,0 +1,56 @@
+#L1 {
+    color: var(--gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+select  {
+    width: 14.75rem;
+    height: 2.875rem;
+  }
+
+.ShopList {
+  display: grid;
+  grid-template-rows: 120.188rem ;
+  grid-template-columns: 63rem 21rem;
+}
+
+.center {
+  margin-left: 25%;
+}
+
+.cards  {
+  display: grid;
+  grid-template-rows: 22.125rem 22.125rem 22.125rem 22.125rem 22.125rem ;
+  grid-template-columns: 21rem 21rem 21rem ;
+}
+.cardcontainer {
+  width: 19.5rem;
+  height: 20.625rem;
+}
+
+.productname {
+    color: #333;
+    font-family: Helvetica;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.price {
+    color: #FF9F0D;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.reducedPrice {
+  color: #828282;
+  margin: 0.5rem;
+}
