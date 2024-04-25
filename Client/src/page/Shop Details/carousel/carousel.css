@@ -1,0 +1,15 @@
+.similarTitle {
+color:  #333;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+}
+
+.carousel {
+    margin-top: 2rem;
+}
+
+.sim-Prod {
+    display: flex;
+    justify-content: space-between;
+}

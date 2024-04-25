@@ -1,0 +1,95 @@
+.box {
+  background-color: transparent;
+  width: 100%;
+}
+
+.box .banner-wrapper {
+  border: 0px none;
+  height: 286px;
+  overflow-x: hidden;
+  width: 248px;
+}
+
+.box .banner {
+  height: 286px;
+  /* left: 0;
+  top: 0; */
+  width: 254px;
+}
+
+.box .overlap-group {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/2e0d5bdde6390087be081ce68b7f269c/img/rectangle-8879.svg);
+  background-size: 100% 100%;
+  height: 286px;
+  position: relative;
+  width: 248px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+}
+
+.box .shop-now {
+  height: 24px;
+  left: 23px;
+  position: absolute;
+  top: 231px;
+  width: 108px;
+}
+
+.box .arrow-circle-right {
+  height: 20px !important;
+  left: 86px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 20px !important;
+}
+
+.box .div {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+  color: #ff9f0d;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 98px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-3 {
+  color: #ffffff;
+  font-family: var(--heading-6-20-font-family);
+  font-size: var(--heading-6-20-font-size);
+  font-style: var(--heading-6-20-font-style);
+  font-weight: var(--heading-6-20-font-weight);
+  left: 23px;
+  letter-spacing: var(--heading-6-20-letter-spacing);
+  line-height: var(--heading-6-20-line-height);
+  position: absolute;
+  top: 57px;
+  white-space: nowrap;
+}

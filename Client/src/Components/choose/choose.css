@@ -1,0 +1,214 @@
+.choosegrid {
+    display: grid;
+    grid-template-columns: 1fr 45% 45% 1fr;
+    grid-template-areas: ". pic us .";
+    background: var(--black-ododod, #0D0D0D);
+}
+
+.whyus {
+    grid-area: us;
+    display: grid;
+    grid-template-rows: 3em 7em 8em 15em 4em ;
+    grid-template-areas: "chtitre" "chsoustitre" "chpara" "chcard" "chexperience";
+}
+
+.chooseexperience {
+    grid-area: chexperience;
+    display: grid;
+    grid-template-columns: 4px 20% 20% ;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: ". item1 item2 ." ". item1 item3 .";
+    
+}
+
+.choose30 {
+    grid-area: item1;
+    color: var(--primary-color, #FF9F0D);
+    margin-left: 5%;
+    text-align: center;
+/* Headingt 2/48 */
+font-family: Helvetica;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+background-color: #FFF;
+}
+
+.chooseyears {
+    grid-area: item2;
+    color: var(--black-1, #1E1E1E);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+background-color: #FFF;
+}
+
+.chooseexperienced {
+    grid-area: item3;
+    background-color: #FFF;
+    color: var(--black-1, #1E1E1E);
+
+/* Heading 5/24 */
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+
+.choosetitre{
+    grid-area: chtitre;
+    color: var(--primary-color, #FF9F0D);
+font-family: Great Vibes;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+
+}
+
+.choosesoustitre{
+    grid-area: chsoustitre;
+    color: #ffff;
+/* Headingt 2/48 */
+font-family: Helvetica;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+}
+
+.choosepara {
+    grid-area: chpara;
+    display: grid;
+    grid-template-columns: 50%;
+    color: var(--fffffff, #FFF);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.choosecard {
+    grid-area: chcard;
+    display: grid;
+    grid-template-rows:  50% 50%;
+    grid-template-areas: "piccard" "titrecard ";
+}
+
+.flexchoosepic {
+    grid-area: piccard;
+    display: grid;
+    grid-template-columns: 3px 20% 20% 20% ;
+    grid-template-areas: ". cardpic1 cardpic2 cardpic3 .";
+}
+
+.flexchoosetitre {
+    display: grid;
+    grid-template-columns: 3% 20% 20% 20% ;
+    grid-template-areas: ". cardtitre1 cardtitre2 cardtitre3 .";
+    color: var(--fffffff, #FFF);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+.choosecardicon1 {
+    grid-area: cardpic1;
+    background:#FF9F0D;
+    
+    margin: 18px;
+    height: 60px;
+    width: 60px;
+    /* padding: 19px; */
+    display: flex;
+    justify-content: center;
+}
+.choosecardicon2 {
+    grid-area: cardpic2;
+    background:#FF9F0D;
+    
+    margin: 18px;
+    height: 60px;
+    width: 60px;
+    /* padding: 19px; */
+    display: flex;
+    justify-content: center;
+}
+.choosecardicon3 {
+    grid-area: cardpic3;
+    background:#FF9F0D;
+    
+    margin: 18px;
+    height: 60px;
+    width: 60px;
+    /* padding: 19px; */
+    display: flex;
+    justify-content: center;
+}
+
+.choosetitreitem1 {
+    grid-area: cardtitre1;
+}
+
+.choosetitreitem2 {
+    grid-area: cardtitre2;
+}
+
+.choosetitreitem3 {
+    grid-area: cardtitre3;
+}
+
+.choosepic{
+    grid-area: pic;
+    display: grid;
+    grid-template-rows: 51% 49%;
+    grid-template-areas: "chrow1" " chrow2";
+}
+
+.chrow1{
+    grid-area: chrow1;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns:  2fr 44% 50%;
+    grid-template-areas: ". chpic1 ." ". chpic1 chpic2";
+}
+
+.chpic1 {
+    grid-area: chpic1;
+}
+
+.chpic2 {
+    grid-area: chpic2;
+}
+
+.chrow2 {
+    grid-area: chrow2;
+    display: grid;
+    grid-template-columns: 2fr 30% 27% 38%;
+    grid-template-rows: 53% 15% 15% 20%;
+    grid-template-areas:". chpic3 chpic4 chpic5" ". chpic3 chpic4 chpic6" ". chpic3 . chpic6" ". . . chpic6" ;
+}
+
+.chpic3 {
+    grid-area: chpic3;
+}
+
+.chpic4 {
+    grid-area: chpic4;
+}
+
+.chpic5 {
+    grid-area: chpic5;
+}
+
+.chpic6 {
+    grid-area: chpic6;
+}

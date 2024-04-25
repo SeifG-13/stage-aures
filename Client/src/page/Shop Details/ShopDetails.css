@@ -1,0 +1,117 @@
+.shopDetails {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.cardDetails {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.cardInfo {
+    margin-left: 1rem;
+}
+
+.detailcardimg {
+    width: 100%;
+    height: 100%;
+}
+
+.detailTitle {
+color: #333;
+font-kerning: none;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+}
+
+.detailPrice {
+    color:  #333;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.detailreducedPrice {
+    color:  #828282;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 1rem;
+}
+
+.inStock {
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    background-color: rgb(255 159 13);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(255 255 255);
+}
+.itemQuantity {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.plusminus {
+    display: flex;
+}
+
+.plusminus button {
+height: 50px;
+width: 50px;
+border-width: 1px;
+font-size: 20px;
+font-weight: 700;
+}
+
+.addtocart {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    background-color: rgb(255 159 13);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: rgb(255 255 255);
+}
+
+.addtowich {
+    display: flex;
+}
+
+.heart {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    margin-right: 1rem;
+}
+
+
+
+.create {
+    border: 1.5px solid rgb(108, 115, 148);
+    color: rgb(108, 115, 148);
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  .create:hover {
+    background-color: rgb(131, 138, 172);
+  }
+  
+  .create:active {
+    background-color: rgb(108, 115, 148);
+    color: rgb(255, 255, 255)
+  }
+
+
+  

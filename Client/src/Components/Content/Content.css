@@ -1,0 +1,156 @@
+.titre {
+color: #FF9F0D;
+font-size: 32px;
+font-family: Great Vibes;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+margin-top: 101px;
+
+}
+
+.titre-2 {
+font-size: 60px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: 68px;
+color: var(--fffffff, #FFF);
+z-index: 10;
+height: 170px;
+
+}
+
+p {
+color: var(--fffffff, #FFF);
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+height: 75px;
+}
+
+.btn{
+    background-color: #FF9F0D;
+    border-radius: 30px;
+    width: 115px;
+    height: 45px;
+}
+
+
+.container100{
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(40%,4fr) minmax(50%,5fr);
+    grid-template-areas: "image text logo ";
+}
+
+.container1{
+grid-area: image;
+display: grid;
+grid-template-rows: 10em 2em 2em 2em 8em;
+/* grid-template-areas: "line1 im1 im2 im3 line2"; */
+}
+.line1{
+    grid-area: line1;
+    grid-row: 1 ;
+    height: 140px;
+}
+.line2{
+    grid-area: line2;
+    grid-row: 5;
+    height: 140px;
+}
+
+.img1{
+    grid-area: im1;
+    grid-row: 2 ;
+}
+.img2{
+    grid-area: im2;
+    grid-row: 3 ;
+
+}
+.img3{
+    grid-area: im3;
+    grid-row: 4 ;
+
+}
+.container2{
+    grid-area: text;
+
+}
+
+.container3{
+    grid-area: logo ;
+}
+
+.plat{
+    
+    padding-left: 15%;
+    z-index: 1;
+    width: 60%;
+    height: 80%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.feuille{
+    
+    margin-left: -25%;
+    width: 55%;
+    height: 60%;
+    /* transform: rotate(344deg); */
+    flex-shrink: 0;
+    margin-bottom: 10%;
+
+}
+
+.ellipse {
+    
+    margin-left: -70%;
+    width: 55%;
+    height: 70%;
+    margin-bottom: 5%;
+}
+
+.plat1{
+    margin-left: -71%;
+    width: 5%;
+    height: 6%;
+    flex-shrink: 0;
+    margin-bottom: 65%;
+}
+
+.plat2 {
+    margin-left: -21%;
+    width: 8%;
+    height: 9%;
+    flex-shrink: 0;
+    margin-bottom: 46%;
+}
+
+.plat3 {
+    margin-left: -7%;
+    width: 8%;
+    height: 9%;
+    flex-shrink: 0;
+    margin-bottom: 21%;
+    z-index: -1;
+}
+
+.plat4 {
+    margin-left: 10%;
+    width: 2%;
+    height: 3%;
+    flex-shrink: 0;
+    margin-bottom: 6%;
+}
+
+.plat21 {
+    margin-left: -88%;
+    width: 8%;
+    height: 9%;
+    flex-shrink: 0;
+    margin-bottom: 46%;
+}

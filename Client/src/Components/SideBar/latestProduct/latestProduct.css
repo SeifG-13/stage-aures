@@ -1,0 +1,38 @@
+.head {
+    color: var(--gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+.smallCard {
+    display: inline-grid;
+    grid-template-columns: 5.425rem 10.219rem;
+    margin-top: 1rem
+}
+
+.smallimg {
+    width: 71.811px;
+    height: 65px;
+}
+
+.prodName {
+    color: #4F4F4F;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}&
+
+.priceTag {
+    color: #4F4F4F;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}

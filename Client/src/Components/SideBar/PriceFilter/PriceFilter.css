@@ -1,0 +1,12 @@
+.head {
+    color: var(--gray-1, #333);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.range {
+    background: orange;
+}

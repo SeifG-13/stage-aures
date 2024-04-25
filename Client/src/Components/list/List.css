@@ -1,0 +1,52 @@
+.list {
+    display: grid;
+    grid-template-rows: 5em 5em auto 3em;
+    grid-template-columns: 1fr 20% 20% 20% 20% 1fr;
+    grid-template-areas: ". titrel titrel titrel titrel ." ". parag parag parag parag ." ". im1 im2 im3 im4 .";
+    background: var(--black-ododod, #0D0D0D);
+    grid-auto-flow:row dense;
+}
+
+.titreL {
+    grid-area: titrel;
+    color: var(--primary-color, #FF9F0D);
+font-size: 32px;
+font-family: Great Vibes;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+.parag {
+    grid-area: parag;
+    color: #FF9F0D;
+
+/* Headingt 2/48 */
+font-size: 48px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+
+.image1 {
+    grid-area: im1;
+}
+
+.image2 {
+    grid-area: im2;
+}
+
+.image3 {
+    grid-area: im3;
+}
+
+.image4 {
+    grid-area: im4;
+}

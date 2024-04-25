@@ -1,0 +1,219 @@
+.Navbar {
+    height: 100px;
+    
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(13, 13, 13, 0.95);
+  }
+  
+  .Navbar > .nav-logo {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-left: 45%;
+    
+  }
+  
+  .Navbar > .nav-items > .nav-item > a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    opacity: 0.9;
+  }
+  
+  .Navbar > .nav-items > .nav-item > a:hover {
+    opacity: 1;
+  }
+  
+  .Navbar > .nav-items > .nav-item > a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s;
+  }
+  
+  .Navbar > .nav-items  > .nav-item > a:hover::before {
+    width: 100%;
+  }
+  
+  .Navbar > .nav-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 920px) {
+    .Navbar > .nav-items    {
+      position: absolute;
+      top: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-items: space-between;
+      background: rgba(13, 13, 13, 0.95);
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-100%);
+      transition: all .45s;
+      max-width: 100%;
+    }
+    .Navbar > .nav-items  > .nav-item   {
+      
+      display: flex;
+      flex-direction: column;
+      background: rgba(13, 13, 13, 0.95);
+      width: 100%;
+      
+      /* transform: translateX(-100%); */
+      
+    }
+    /* .Navbar > .nav-items  >  a::before {
+        background: transparent;
+    } */
+  
+    .Navbar > .nav-items.open {
+        transform: translateX(0);
+    }
+  
+    .Navbar > .nav-toggle {
+      display: flex;
+      /* width: 50px;
+      height: 50px; */
+      align-items: end;
+      justify-content: end;
+      cursor: pointer;
+    }
+  
+    .nav-toggle > .bar {
+      position:absolute;
+      width: 32px;
+      height: 2px;
+      background: #ffffff;
+      transition: all 0.45s ease-in-out;
+    }
+  
+    .nav-toggle > .bar::before,
+    .nav-toggle > .bar::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background: #ffffff;
+      border-radius: 2px;
+      transition: all 0.45s ease-in-out;
+    }
+  
+    .nav-toggle > .bar::before {
+      width: 25px;
+      transform: translateY(-8px);
+      right: 0;
+    }
+  
+    .nav-toggle > .bar::after {
+      width: 32px;
+      transform: translateY(8px);
+    }
+  
+    .nav-toggle.open > .bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+  
+    .nav-toggle.open > .bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+  
+    .nav-toggle.open > .bar::after {
+      transform: rotate(-45deg) translate(26px, 26px);
+    }
+  
+  
+  }
+
+.container-search {
+  justify-content:end ;
+  background: rgba(13, 13, 13, 0.95);
+  height: 100%;
+  width: inherit;
+
+}
+
+.search-bar {
+  /* margin-left: 80%; */
+  background: rgba(13, 13, 13, 0.95);
+  /* max-width: 310px; */
+  align-items: right; 
+  /* border-radius: 25px; */
+  /* padding: 10px 20px; */
+  display: flex;
+  border: 2px solid #FF9F0D;
+  border-radius: 25px;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border:0 ;
+  outline: none;
+  padding: 8px 8px;
+  font-size: 20px;
+  color: #FF9F0D;
+
+}
+
+::placeholder{
+  color: #ffffff;
+}
+
+.search-bar button{
+border: 0;
+border-radius: 50%;
+background: transparent;
+
+button {
+  height: 0;
+  background: white;
+  border: none;
+  color: #FF9F0D;
+}
+}
+.nav-items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50px;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+/* .anticon svg {
+  width: 2em;
+  height: 2em;
+} */
+
+.signout {
+  border: 1.5px solid rgb(255, 175, 163);
+  background-color: rgb(255, 175, 163) !important;
+  color: rgb(234, 234, 234);
+}
+
+.signout:hover {
+  background-color: rgb(175, 94, 94) !important;
+  border: 1.5px solid rgb(175, 94, 94);
+}
+
+.signout:active {
+  border: 1.5px solid rgb(175, 81, 81) !important;
+  background-color: rgb(175, 81, 81) !important;
+  color: rgb(255, 255, 255);
+}
